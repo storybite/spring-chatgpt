@@ -1,0 +1,27 @@
+server:
+  port: 8090
+  tomcat: 
+    use-relative-redirects: true
+  servlet:
+    context-path: /
+  error:
+    whitelabel:
+      enabled: false
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      
+  mvc:
+    view:
+      suffix: .html
+      
+      
+
+spring:    
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3309/loc?serverTimezone=Asia/Seoul
+    username: admin
+    password: 10dlf372!!    
